@@ -5,6 +5,7 @@ export default defineConfig({
     { path: "/", component: "index" }
   ],
   npmClient: 'pnpm',
-  publicPath: '/examples/umi-gaode-map-echarts-districtExplorer/dist/',
-  base: '/examples/umi-gaode-map-echarts-districtExplorer/dist/'
+  publicPath: '/examples/umi-gaode-map-echarts-districtExplorer/demo/',
+  base: '/examples/umi-gaode-map-echarts-districtExplorer/demo/',
+  outputPath: 'demo',
 });
